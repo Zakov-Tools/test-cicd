@@ -1,4 +1,5 @@
 HTML = """<head>
+    <base href="/test-cicd/">
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
