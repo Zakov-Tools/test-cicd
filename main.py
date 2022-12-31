@@ -3,7 +3,7 @@ HTML = """<head>
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
-    Hello World!
+    Hello World! From PR.
     <script src="static/js/script.js"></script>
 </body>"""
 
