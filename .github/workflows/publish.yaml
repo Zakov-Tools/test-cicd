@@ -36,7 +36,7 @@ jobs:
           mkdir build
           python main.py > build/index.html
           cp -r static build
-          apt install yui-compressor -y
+          sudo apt install yui-compressor -y
           yui-compressor -o '.js$:.js' build/static/js/*.js
           yui-compressor -o '.css$:.css' build/static/css/*.css
       - name: Setup Pages
