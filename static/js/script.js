@@ -1,1 +1,8 @@
-console.log("Hello JS!");
+
+function greet() {
+
+    console.log("Hello JS!");
+
+}
+
+greet();
